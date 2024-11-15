@@ -1,0 +1,107 @@
+/* ベーススタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* バナーセクション */
+.banner {
+    background-color: #e0f7fa;
+    padding: 2em;
+    text-align: center;
+}
+
+.banner h2 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.banner button {
+    margin-top: 1em;
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+    color: white;
+    background-color: #00796b;
+    border: none;
+    cursor: pointer;
+}
+
+/* 検索セクション */
+.search-section {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    background-color: #f7f7f7;
+}
+
+.search-section input {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+.search-section button {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* カテゴリーセクション */
+.category {
+    padding: 2em;
+    background-color: #f4f4f4;
+    margin: 1em 0;
+}
+
+.category h3 {
+    margin-top: 0;
+}
+
+/* ピックアップ記事 */
+.featured-content {
+    padding: 1.5em;
+    background-color: #e8f5e9;
+}
+
+.featured-content ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
