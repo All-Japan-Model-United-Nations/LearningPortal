@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- ヘッダー -->
     <header>
         <h1>Googleスプレッドシート解説ブログ</h1>
         <p>初心者向け！スプレッドシートの基礎から応用まで</p>
+        <!-- 基礎知識ページへのリンクを追加 -->
         <nav>
             <ul>
-                <li><a href="#basics">基礎知識</a></li>
+                <li><a href="basic/basic_operations.html">基礎知識：スプレッドシートの基本操作</a></li>
                 <li><a href="#functions">よく使う関数</a></li>
                 <li><a href="#advanced">応用テクニック</a></li>
                 <li><a href="#faq">FAQ</a></li>
@@ -21,35 +21,25 @@
         </nav>
     </header>
 
-    <!-- メインバナー -->
-    <section class="banner">
-        <h2>まずは基礎から始めましょう！</h2>
-        <button onclick="scrollToSection('basics')">学習を始める</button>
-    </section>
+    <main>
+        <section id="intro">
+            <h2>まずは基礎から始めましょう！</h2>
+            <p>このブログでは、Googleスプレッドシートの基本的な操作から応用まで、ステップバイステップで解説します。</p>
+            <a class="btn-start" href="basic_operations.html">基礎知識を学ぶ</a>
+        </section>
 
-    <!-- 検索ボックス -->
-    <section class="search-section">
-        <input type="text" id="searchInput" placeholder="関数や機能を検索...">
-        <button onclick="searchContent()">検索</button>
-    </section>
+        <section id="functions">
+            <h2>よく使う関数</h2>
+            <p>SUM、IF、VLOOKUPなどの関数を活用して、効率的にデータを処理しましょう。</p>
+            <!-- 他の詳細ページリンクも順次追加可能 -->
+        </section>
 
-    <!-- カテゴリーセクション -->
-    <section id="basics" class="category">
-        <h3>基礎知識</h3>
-        <p>スプレッドシートの基本操作について学びましょう。</p>
-    </section>
+        <section id="advanced">
+            <h2>応用テクニック</h2>
+            <p>データの整理や分析に役立つ高度なテクニックを解説します。</p>
+        </section>
 
-    <section id="functions" class="category">
-        <h3>よく使う関数</h3>
-        <p>SUM、IF、VLOOKUPなどのよく使われる関数を紹介。</p>
-    </section>
-
-    <section id="advanced" class="category">
-        <h3>応用テクニック</h3>
-        <p>実践で役立つテクニックと応用例。</p>
-    </section>
-
-    <!-- ピックアップ記事 -->
+      <!-- ピックアップ記事 -->
     <section class="featured-content">
         <h3>注目記事</h3>
         <ul>
